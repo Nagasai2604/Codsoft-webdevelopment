@@ -1,0 +1,180 @@
+.bgpf {
+    background-image:linear-gradient(lightblue, #f5675d ,#d087f5);
+    background-position-x: left;
+    animation: mymov 5s infinite;
+    
+}
+@keyframes mymov {
+    50% {background-position-y: center;}
+   
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.linknav {
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fefefe;
+    position: relative;
+    transition: color 0.255s;
+}
+
+
+
+.aboutbg {
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 5px black inset;
+}
+
+#about {
+    background-image: url('https://img.freepik.com/free-vector/worldwide-connection-blue-background-illustration-vector_53876-76824.jpg?t=st=1717769907~exp=1717773507~hmac=f31a924ff346f4da6d7edf5719ea5d922cd65d4dd84d9e706734bb2b099835be&w=1060');
+    background-position-x: left;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {background-position-x: center;}
+}
+
+.about-img {
+    height: 150px;
+    width: 150px;
+}
+
+.aboutme {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.text {
+    color: black;
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.hero {
+    background: #e0e0e0;
+    color: #333;
+    font-family: 'Verdana', sans-serif;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#skills {
+    background: #beb696;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 5px black inset;
+}
+
+.skill {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill i {
+    font-size: 4em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.skill h4 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.heartbeat {
+    animation-name: heartbeat;
+}
+
+@keyframes heartbeat {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
